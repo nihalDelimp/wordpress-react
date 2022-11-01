@@ -1,0 +1,29 @@
+.global-wrapper {
+  margin: var(--spacing-0) auto;
+  max-width: 1280px !important;
+  padding: var(--spacing-10) var(--spacing-5);
+}
+
+.blog--post--main{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.blog--post{
+  background-color: #ffb30033;
+  padding: 12px;
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 10px;
+  }
+  .blog--post:hover{
+  border-color: red;
+  }
+
+  @media screen and (max-width: 768px) {
+    .blog--post {
+      max-width: 100%;
+    }
+  }
